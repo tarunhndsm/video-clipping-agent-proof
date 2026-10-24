@@ -1,0 +1,55 @@
+{
+  "synthetic_fixture_only": true,
+  "checks": {
+    "source_unchanged": true,
+    "exact_count_and_all_formats": true,
+    "selected_captions_match_known_script": true,
+    "boundaries_include_whole_known_sentences": true,
+    "nine_media_files_fully_decode_and_match_manifest": true,
+    "only_requested_clip_revised": true,
+    "unrequested_media_and_captions_byte_identical": true,
+    "retention_branch_uses_supplied_peak": true,
+    "synthetic_retention_is_labelled": true,
+    "exact_create_retry_is_no_op": true,
+    "exact_revision_retry_is_no_op": true
+  },
+  "details": {
+    "full_transcript": {
+      "reference_words": 249,
+      "word_errors": 1,
+      "note": "Raw recognition uses supplier's in place of supplier. Selected clips are checked separately."
+    },
+    "selected_clips": [
+      {
+        "id": "clip-01",
+        "exact_script_match": true,
+        "contains_entire_synthesized_sentence_audio": true,
+        "start": 15.920000000000002,
+        "end": 39.25
+      },
+      {
+        "id": "clip-02",
+        "exact_script_match": true,
+        "contains_entire_synthesized_sentence_audio": true,
+        "start": 56.269999999999996,
+        "end": 72.16999999999999
+      },
+      {
+        "id": "clip-03",
+        "exact_script_match": true,
+        "contains_entire_synthesized_sentence_audio": true,
+        "start": 80.61999999999999,
+        "end": 98.71
+      }
+    ],
+    "unchanged_revision_files": 12
+  },
+  "passed": 11,
+  "total": 11,
+  "validation_seconds": 0.923,
+  "limitations": [
+    "No customer acceptance or production reliability is established.",
+    "Public YouTube ingestion has not been exercised in this fixture.",
+    "Synthetic retention is not evidence of audience performance."
+  ]
+}

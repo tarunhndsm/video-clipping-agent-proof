@@ -1,0 +1,2 @@
+-r requirements.txt
+kokoro-onnx==0.6.1
